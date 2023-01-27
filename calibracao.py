@@ -19,7 +19,7 @@ std2 = Measurement(4.67, 1e-2)
 #then pass all the measures correspondent to this equipment (in this case all with prefix std)
 comercial = Standard("vonder", 2.5, 5, std0, std1, std2)
 
-# instantiate the equipment to be calibrated
+#instantiate the equipment to be calibrated
 #pass the name and all the measures correspondent to it
 developed = Equipment("custom", tbc0, tbc1, tbc2)
 
@@ -30,5 +30,5 @@ process = Calibration(comercial, developed, 10)
 process.values()
 
 #get graphic results
-#pass a valid index from array results 
+#pass a valid index from array results
 process.graph(2, to_save=False)

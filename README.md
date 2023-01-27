@@ -1,4 +1,4 @@
-### Classe para realizar procedimento de encontrar incerteza aprovada no teste de conformidade
+### Classe para realizar procedimento de encontrar valor de incerteza que é aprovada no teste de conformidade
 Desenvolvida durante realização de atividades da disciplina de instrumentação eletrônica.
 O exemplo [calibracao.py](https://github.com/igor-stefan/calibClassInst/blob/master/calibracao.py) possui o padrao de uso explicado.
 -    1. Crie objetos para as medidas realizadas (uma para cada medida, instancie a classe ```Measurement```).
